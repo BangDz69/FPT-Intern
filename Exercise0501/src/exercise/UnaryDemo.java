@@ -1,0 +1,26 @@
+/*
+ * @author LuongBang16
+ * @date Jan 6, 2021
+ * @version 1.0
+ */
+package exercise;
+
+public class UnaryDemo {
+	public static void main(String[] args) {
+		int i = 3;
+		i++;
+		//prints 4
+		System.out.println(i);
+		++i;
+		//prints 5
+		System.out.println(i);
+		//prints 6
+		System.out.println(++i);
+		//prints 6
+		System.out.println(i++);
+		//prints 7
+		System.out.println(i);
+		i += i++ + (++i) + (++i) + i++;
+		System.out.println(i);
+	}
+}
